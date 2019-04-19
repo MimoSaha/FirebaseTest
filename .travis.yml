@@ -16,7 +16,7 @@ android:
     - addon-google_apis-google-25
     - sys-img-armeabi-v7a-android-22
 
-    licenses:
+licenses:
     - 'android-sdk-license-.+'
 
 before_install:
@@ -30,7 +30,7 @@ before_script:
   - adb shell input keyevent 82 &
 
 script:
-  - ./gradlew build assembleDebug
+   - ./gradlew clean build assembleDebug
 #   - ./gradlew :app:lintDebug
 
 after_failure:
