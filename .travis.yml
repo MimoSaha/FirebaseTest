@@ -32,7 +32,7 @@ before_script:
 script:
 #  - ./gradlew clean build lintDebug connectedCheck -PdisablePreDex --stacktrace
 #   - ./gradlew clean build assembleDebug
-  - ./gradlew clean build lintDebug coveralls
+  - ./gradlew build lintDebug
 #   - ./gradlew clean build lintDebug -PdisablePreDex --stacktrace
 #   - ./gradlew :app:lintDebug
 
